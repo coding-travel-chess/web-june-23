@@ -1,0 +1,42 @@
+To create a form we use form tag.
+<form>
+.
+.
+.
+</form>
+A form is used to collect information from the user.
+Following attributes are commonly used with <form> tag
+i) action: this attribute specify the url of a server side script on which form data is sent.
+ii) method: this attribute specifies the method of the data passing from client to server when we submit the form.
+
+A <form> contains form control to capture the user's info.
+In HTML most of the form controls are created using the <input > tag.
+The type attribute is used to specify the different types of controls.
+
+Label: a label is created using the <label> tag. A label is a text, on which when we click an input field gets the focus. A label is connected to an input field using the for attribute. The for attribute conatins the id of the input element.
+
+<label for="s1">Enter age</label>
+The above lable is connected to the input element having id="s1"
+
+<input type="text"> Creates a single line text entry area/ single line text field.
+
+<input type="password" > Used to create password input field/ creates a single line text field with masked input
+
+<input type="email"> Used to create email input field.
+
+<input type="number"> Used to create number input field.
+
+<input type="radio"> Used to create a radio button.
+To make radios in a group use the same value for name attribute of all radio button. 
+Radio buttion used for multiple option single selection.
+
+
+<input type="checkbox" > Used to create checkbox.
+Used for multiple option multiple selection
+
+
+
+
+
+
+
