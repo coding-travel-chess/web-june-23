@@ -34,6 +34,30 @@ Radio buttion used for multiple option single selection.
 <input type="checkbox" > Used to create checkbox.
 Used for multiple option multiple selection
 
+<input type="submit" > It is used to create a submit button. When we click on submit button then data filled in form controls is sent to the server side page specified in action attribute of the form. If we do not specifiy any url in action attribute then data is submitted on same page.
+
+<input type="reset"> It is used to create a reset button. When we click on a reset button then all form fields are cleared.
+
+value attribute: value attribute is used with the input fields.
+It is used to specify the value/predefined value of the field.
+
+placeholder attribute: Mostly used with input tags. The text specified for placeholder is displayed as watermark text in the input field, this placeholder text is automatically removed when you start typing in the input field.
+
+required: Required attribute is used to make a field mandatory.
+
+min and max: generally these attributes are used with type="number"
+
+maxlength: generally used with type="text" and type="password". It limits the characters that can be entered in a input field.
+
+disabled: Used to disable a form element. The data of a disabled field is not send to the server side page when submit is pressed.
+
+readonly: The readonly attribute makes a field uneditable, but when we submit form the readonly fields are also submitted.
+
+size: The size attribute is used to increase the size of the input field. It can be used with the number, text, password, email etc.
+
+Or you can also use css to change the width:
+style="width:200px"
+
 
 
 

@@ -3,28 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Form controls</title>
 </head>
 <body>
-	<form>
+	<form action="save.php">
 		<label for="name">Enter your name :</label> 
-		<input id="name" type="text" name=""><br>
+		<input value="shubham" id="name" readonly maxlength="10" required placeholder="Enter your full name" type="text" name="name"><br>
 		
 		<label for="password">Password</label> 
-		<input  id="password" type="password" name=""><br>
+		<input id="password" required type="password" name="password"><br>
 
 		<label for="email">Enter your email</label>
-		<input id="email" type="email" name=""><br>
+		<input required placeholder="username@domain.com"  id="email" type="email" name="email" disabled><br>
 
 		<label for="mobile">Enter your mobile</label>
-		<input id="mobile" type="number" name=""><br>
+		<input id="mobile" min="1000000000" max="9999999999" required type="number" name="mobile"><br>
 
-		Gender <label for="male">Male</label>
-				<input id="male" type="radio" name="gender">
-			   <label>Female<input id="female" type="radio" name="gender">
-			   </label>
-			   <label>Prefer not to say
-			   	<input id="pnts" type="radio" name="gender">
+		Gender 
+				<input id="male" value="male" type="radio" name="gender">
+				<label for="male">Male</label> | 
+			   <label><input id="female" type="radio" name="gender" value="female">Female
+			   </label> |
+			   <label>
+			   	<input id="pnts" value="not determined" type="radio" name="gender">Prefer not to say
 			   </label>
 
 		<br>
@@ -33,7 +34,10 @@
 		<label><input type="checkbox" > Reading</label>
 		<label><input type="checkbox" > Singing</label>
 		<label><input type="checkbox" > Dancing</label>
-		<label><input type="checkbox" > Cooking</label>
+		<label><input type="checkbox" > Cooking</label><br>
+
+		<input type="submit" name="submit" value="Register!">
+		<input type="reset" name="reset" value="Clear field!">
 	</form>
 </body>
 </html>
