@@ -8,19 +8,19 @@
 <body>
 	<form action="save.php">
 		<label for="name">Enter your name :</label> 
-		<input value="shubham" id="name" readonly maxlength="10" required placeholder="Enter your full name" type="text" name="name"><br>
+		<input value="shubham" id="name" readonly maxlength="10" required placeholder="Enter your full name" type="text" name="name" tabindex="2"><br>
 		
 		<label for="password">Password</label> 
-		<input id="password" required type="password" name="password"><br>
+		<input id="password" required type="password" name="password" tabindex="1"><br>
 
 		<label for="email">Enter your email</label>
-		<input required placeholder="username@domain.com"  id="email" type="email" name="email" disabled><br>
+		<input required placeholder="username@domain.com"  id="email" type="email" accesskey="m" name="email" tabindex="3"><br>
 
 		<label for="mobile">Enter your mobile</label>
-		<input id="mobile" min="1000000000" max="9999999999" required type="number" name="mobile"><br>
+		<input id="mobile" min="1000000000" max="9999999999" required type="number" name="mobile" tabindex="4"><br>
 
 		Gender 
-				<input id="male" value="male" type="radio" name="gender">
+				<input tabindex="5" id="male" value="male" type="radio" name="gender">
 				<label for="male">Male</label> | 
 			   <label><input id="female" type="radio" name="gender" value="female">Female
 			   </label> |
@@ -30,14 +30,24 @@
 
 		<br>
 		Hobbies<br>
-		<label><input type="checkbox" > Sleeping</label>
-		<label><input type="checkbox" > Reading</label>
-		<label><input type="checkbox" > Singing</label>
-		<label><input type="checkbox" > Dancing</label>
-		<label><input type="checkbox" > Cooking</label><br>
-
-		<input type="submit" name="submit" value="Register!">
-		<input type="reset" name="reset" value="Clear field!">
+		<label><input type="checkbox" tabindex="7" > Sleeping</label>
+		<label><input type="checkbox" tabindex="8"> Reading</label>
+		<label><input type="checkbox" tabindex="9"> Singing</label>
+		<label><input type="checkbox" tabindex="10"> Dancing</label>
+		<label><input type="checkbox" tabindex="11"> Cooking</label><br>
+		<br>
+		<label for="profile">Profile photo</label>
+		<input type="file" name="" id="profile"><br>
+		<label for="country">Country</label>
+		<select id="country" multiple>
+			<option>India</option>
+			<option>Russia</option>
+			<option  selected>Israel</option>
+			<option>Germany</option>
+		</select>
+		<br>
+		<input type="submit" tabindex="12" name="submit" value="Register!">
+		<input type="reset" tabindex="13" name="reset" value="Clear field!">
 	</form>
 </body>
 </html>

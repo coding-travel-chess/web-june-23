@@ -34,6 +34,15 @@ Radio buttion used for multiple option single selection.
 <input type="checkbox" > Used to create checkbox.
 Used for multiple option multiple selection
 
+<input type="file" > used to create file upload control.
+
+<select> : it is used to create a drop down list. 
+It contains drop down list elements which are created using the <option> tag.
+
+We can use multiple attribute on <select> tag to enable multiple selection. We can select multiple options by pressing ctrl key and clicking on options.
+
+You can use selected attribute with option to set it as default selected
+
 <input type="submit" > It is used to create a submit button. When we click on submit button then data filled in form controls is sent to the server side page specified in action attribute of the form. If we do not specifiy any url in action attribute then data is submitted on same page.
 
 <input type="reset"> It is used to create a reset button. When we click on a reset button then all form fields are cleared.
@@ -57,6 +66,12 @@ size: The size attribute is used to increase the size of the input field. It can
 
 Or you can also use css to change the width:
 style="width:200px"
+
+
+tabindex: this attribute is used to specify the tab index on which the form field is activated.
+
+accesskey: it is used to set the access key of input field. The field can be accessed by alt+accesskey.
+
 
 
 

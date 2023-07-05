@@ -1,0 +1,2 @@
+q1. What is the structure of html page. explain with example. 10
+Q2. Create a registration form for your college. 10
