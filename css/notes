@@ -1,0 +1,53 @@
+CSS     JS		HTML
+Red Big Jumping Ball
+
+CSS: Cascading Style Sheet
+Used to define style of html elements. We can define colors, backgrounds, sizes, etc using CSS.
+We use css properties to specify the different type of styles.
+
+The property and its value is separated by : sign. Two properties are separated by ; sign.
+
+CSS can be provided in three ways:
+i) Inline CSS : 
+	We use style attribute on the html element.
+	Inline css is applied to this element.
+
+	The inline css is only applied on the element on which we added it.
+
+	The following code creates a red paragraph.
+
+	<p style="color:red;">
+		this is a red paragraph.
+	</p>
+	
+ii) Internal CSS
+
+iii) External CSS
+
+CSS Properties
+color: used to specify the text color of the element.
+background-color: used to specify the background color of the element.
+
+Specifying color values
+We can specify values in a lot of ways. Some of the popular types are as follows:
+i)color names: we can use color names to specify the color value.
+	color:red
+	background-color:yellow
+ii)hexadecimal code: We can specify the color code using the six hexadecimal digits. The hex code is prefixed with # sign.
+	First two digits specifies the quantity of red.
+	Second two digits specifies the quantity of green.
+	Last two digits specifies the quantity of blue.
+	color:#ffffff;				white hex code ffffff
+	background-color:#000000; black hex code 000000
+
+iii) rgb() : we can specify the color code using the css(). It takes three parameters.
+First parameter specifies red color.
+Second parameter specifies green color.
+Last parameter specifies blue color.
+
+And values of parameters must be between 0-255. 
+
+iv)rgba(): similar to rgb() with added transparency (opacity).
+Takes 4 parameters, first three for RGB and last one is for opacity/transparency.
+Opacity must be between 0 to 1. 0 means full transparent, 1 means not transparenmt at all.
+
