@@ -21,6 +21,24 @@ i) Inline CSS :
 	</p>
 	
 ii) Internal CSS
+	Internal CSS allows us to apply same formatting on a element, or unique formatting on element, or same formatting on different types of elements in the same page.
+	Internal CSS is provided in <style> tag, isnide the <head> tag.
+	To select an element we use CSS selectors
+	i) element selector: 	select specific tags/element.
+		tagname
+		{
+			property:value;
+		}
+	ii)id selector: To select a unique element by the id. We use #sign to define the id selector
+	#p1/*select the element having id="p1" */
+	{
+		color:cyan;
+	}
+
+	iii) class selector
+	iv) attribute selector
+	v)pseudo selectors
+
 
 iii) External CSS
 
