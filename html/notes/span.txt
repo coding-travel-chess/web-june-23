@@ -1,0 +1,1 @@
+<span> tag is used to contain text and apply formatting. this is a container tag. it is inline tag.
