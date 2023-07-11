@@ -46,6 +46,11 @@ ii) Internal CSS
 
 
 iii) External CSS
+	The external css is provided in a separate file. The css files must have .css extension. The css files contains only css rules and no html content.
+	Generally external css is used to provide the website specific formatting.
+	We use external css when we want to apply same css on multiple pages.
+
+	We use <link> tag to link an external css file with our web page.
 
 CSS Properties
 color: used to specify the text color of the element.
@@ -75,4 +80,12 @@ background-color: used to specify the background color of the element.
 	Opacity must be between 0 to 1. 0 means full transparent, 1 means not transparenmt at all.
 
 font-size: it is used to specify the size of the font. font-size should be precceded with units like (px,em,in,rem, % etc)
+
 font-weight: it is used to set the boldness of the font. Its value range between 100-900. 900 is maximum bold and 100 is lightest.
+
+font-style: it is used to make the text italic.
+
+font-family: it is used to specify the font.
+
+text-decoration: used to specify the decoration of the text.
+underline, overline, none
