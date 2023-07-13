@@ -89,3 +89,36 @@ font-family: it is used to specify the font.
 
 text-decoration: used to specify the decoration of the text.
 underline, overline, none
+
+text-align: it is used to align the text. Text align can be: left, right, center, justify
+the default text-align is left.
+
+height and width
+height is used to specify the height of an element.
+width is used to specify the width of the element.
+We can set the height and width of block elements. We cannot set height and width of inline elements.
+Height and width can be given in px, %, em , rem, vw, vh also.
+
+border
+The border property is used to specify the following three things
+i)border-style
+ii)border-color
+iii)border-width
+We can spcify the above three properties in short using the border.
+We can also specify the border of top, left,right or bottom using border-top, border-left, border-right and border-bottom.
+
+we can also specify the individual side's border using border shorthand.
+border:solid 1px red; solid red 1px border of all four sides.
+you can specify the different border-style of all four side using
+border-style: solid dashed dotted double;
+As we provide border style for all four sides, similarly we can aslo provide the border-width and border-color of all four sides.
+
+border-style: solid double dashed;
+top will be solid, right and left will be double and bottom will be dashed.
+
+border-style:solid double;
+top and bottom border will be solid and right and left border will be double.
+
+
+
+
