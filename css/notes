@@ -119,6 +119,28 @@ top will be solid, right and left will be double and bottom will be dashed.
 border-style:solid double;
 top and bottom border will be solid and right and left border will be double.
 
+margin: margin specifies the gap around the elements.
+we can specify the margin of all four sides, or 3 sides or , 2 sides or any single side.
+For example to specify the top margin we use margin-top, or to specify the left margin we use margin-left.
+We can also specify the margin of all four sides using the margin property.
+margin:10px 20px 5px 2px; margin from top is 10px, right is 20px, bottom is 5px, left is 2px.
+
+margin:20px 10px; top and bottom 20px, and right left 10px;
+margin:20px 10px 5px; //top 20, right and left 10 and bottom 5
+
+padding: padding specifies the gap between elements text and elements border.
+We can specify the padding of individual sides or all sides just like we spcify the margin.
+
+Box model
+Box model specifies the total width and height of the element.
+For further notes use following github repo
+https://github.com/verrmatarrun/youtube_notes/
+1. open the cmd where you want to clone the above repo
+2. run command git clone https://github.com/verrmatarrun/youtube_notes.git
+3. for getting updates use git pull command
+
+
+
 
 
 
