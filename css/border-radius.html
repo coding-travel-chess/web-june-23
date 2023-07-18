@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		border ko gol karna
+	</title>
+	<style type="text/css">
+		#d1
+		{
+			border-radius:2px 60px;
+			height: 150px;
+			width:150px;
+			background-color: darkmagenta;						
+			box-sizing: border-box;
+			animation: myanim0 5s infinite;
+		}
+		@keyframes myanim0
+		{	0%
+			{	transform: rotate(720deg);
+
+			}
+
+			100%
+			{	transform: rotate(0deg);
+			}
+		}
+		#d2
+		{	height:75px;
+			width: 75px;
+			background-color: cyan;						
+			position: relative;
+			top:-110px;
+			left:40px;
+			box-sizing: border-box;
+			border-radius: 1px 30px;
+			animation: myanim 15s infinite;
+			z-index: 1;
+		}
+		@keyframes myanim
+		{	0%
+			{	transform: rotate(-360deg);
+			}
+			100%
+			{	transform: rotate(0deg);
+			}
+		}
+		#d3
+		{
+			height: 100px;
+			width:100px;
+			background-color: red;
+			position: relative;
+			animation: myanim3 60s infinite;
+		}
+		@keyframes myanim3
+		{
+			0%
+			{
+				top: 0px;
+				left:0px;
+				border-radius: 0px;
+			}
+			25%
+			{
+				top: 0px;
+				left:400px;
+				border-radius: 30px;	
+			}
+			50%
+			{
+				top: 80px;
+				left:400px;
+				border-radius: 50px;
+			}
+			75%
+			{
+				top: 80px;
+				left:0px;
+				border-radius: 60px;
+			}
+			100%
+			{
+				top: 0px;
+				left:0px;
+				border-radius: 70px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="d1">
+		
+	</div>
+	<div id="d2">			
+	</div>
+	<div id="d3">
+		
+	</div>
+</body>
+</html>
